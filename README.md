@@ -23,32 +23,44 @@ A free home screen and game launcher for ROG Ally, Legion Go, MSI Claw, Steam De
 
 <br>
 
-<table>
-<tr>
-<td width="50%"><img src="docs/img/home-tiles.jpg" alt="Arcade Launcher home screen with Continue row and game library"></td>
-<td width="50%"><img src="docs/img/game-details.jpg" alt="Game page with How Long To Beat times, achievements and play status"></td>
-</tr>
-<tr>
-<td><b>Every store, one library.</b> Your last games up top, the rest sorted the way you like.</td>
-<td><b>Know what to play.</b> Trailers, How Long To Beat times, achievements, playtime.</td>
-</tr>
-<tr>
-<td><img src="docs/img/open-now.jpg" alt="Open now app switcher opened with the handheld's Home button"></td>
-<td><img src="docs/img/quick-settings.jpg" alt="Quick settings: volume, brightness, power mode, refresh rate"></td>
-</tr>
-<tr>
-<td><b>A Home button that goes home.</b> Press once for Arcade, twice to switch between running apps.</td>
-<td><b>Quick settings.</b> Volume, brightness, power mode, refresh rate, Wi-Fi, sleep.</td>
-</tr>
-<tr>
-<td><img src="docs/img/icons-light.jpg" alt="Small icons layout in the light theme"></td>
-<td><img src="docs/img/tile-options.jpg" alt="Options for a game: rename, cover art, collections, profile, uninstall"></td>
-</tr>
-<tr>
-<td><b>Tiles, icons or console row.</b> Dark, light or OLED black. English and Arabic.</td>
-<td><b>Edit anything with the controller.</b> Rename, hide, cover art, collections, uninstall.</td>
-</tr>
-</table>
+## Features
+
+### Every store, one library
+
+Your last games up top, everything else sorted the way you like. Steam, Game Pass, Epic, GOG, EA, Ubisoft and more, side by side.
+
+<img src="docs/img/home-tiles.jpg" width="100%" alt="Arcade Launcher home screen with Continue row and game library">
+
+### Know what to play
+
+Trailers, How Long To Beat times, achievements, playtime and play status for every game.
+
+<img src="docs/img/game-details.jpg" width="100%" alt="Game page with How Long To Beat times, achievements and play status">
+
+### A Home button that goes home
+
+Press Home once to come back to Arcade from any game. Press it twice to see everything that is running and switch, like on a phone.
+
+<img src="docs/img/open-now.jpg" width="100%" alt="Open now app switcher opened with the handheld Home button">
+
+### Quick settings, one press away
+
+Volume, brightness, power mode, refresh rate, Wi-Fi and sleep without leaving the couch.
+
+<img src="docs/img/quick-settings.jpg" width="100%" alt="Quick settings: volume, brightness, power mode, refresh rate">
+
+### Tiles, icons or console row
+
+Pick the layout that suits your screen. Dark, light or OLED black, in English or Arabic.
+
+<img src="docs/img/icons-light.jpg" width="100%" alt="Small icons layout in the light theme">
+
+### Edit anything with the controller
+
+Rename, hide, change cover art, build collections, set per-game profiles or uninstall, all from one menu.
+
+<img src="docs/img/tile-options.jpg" width="100%" alt="Options for a game: rename, cover art, collections, profile, uninstall">
+
 
 ## Install
 
