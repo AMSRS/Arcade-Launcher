@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest an idea for Arcade Launcher
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Arcade to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?
+      description: How do you use your handheld, and what's missing today?

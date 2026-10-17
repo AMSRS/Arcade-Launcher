@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help
+    url: https://github.com/AMSRS/Arcade-Launcher/discussions
+    about: Ask how to set something up or share your setup
+  - name: Support Arcade on Ko-fi
+    url: https://ko-fi.com/amsrs
+    about: Say thanks or help keep the project going

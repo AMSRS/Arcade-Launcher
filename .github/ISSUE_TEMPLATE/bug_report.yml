@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in Arcade Launcher doesn't work as it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: ROG Ally X, Legion Go, MSI Claw, desktop PC…
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Arcade version
+      description: Shown at the top of the ☰ menu
+      placeholder: "1.0.0"
+  - type: dropdown
+    id: store
+    attributes:
+      label: Which store or launcher is involved?
+      multiple: true
+      options: [Steam, Xbox / Game Pass, Epic Games, GOG, EA app, Ubisoft Connect, Battle.net, itch.io, RetroArch / emulators, Game folder, Not about a store]
+  - type: textarea
+    id: log
+    attributes:
+      label: Crash log (if Arcade closed by itself)
+      description: Settings › Open logs folder › crash.log. Paste the last lines here.
+      render: text
