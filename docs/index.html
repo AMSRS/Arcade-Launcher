@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arcade Launcher: Free Console-Style Game Launcher for Windows Handhelds (ROG Ally, Legion Go, MSI Claw)</title>
+<meta name="description" content="Arcade Launcher is a free, lightweight console-style home screen and game launcher for Windows handheld PCs. Steam, Xbox Game Pass, Epic, GOG, EA, Ubisoft, Battle.net and emulator games in one controller-friendly library. A Playnite and Steam Big Picture alternative for ROG Ally, Legion Go, MSI Claw and AYANEO.">
+<meta name="keywords" content="game launcher, windows handheld, ROG Ally launcher, Legion Go launcher, MSI Claw, AYANEO, OneXPlayer, AOKZOE, GPD, Steam Deck Windows, Playnite alternative, Steam Big Picture alternative, console mode Windows, controller friendly launcher, Xbox Game Pass launcher, Epic Games, GOG, emulator frontend, home screen replacement">
+<link rel="canonical" href="https://amsrs.github.io/Arcade-Launcher/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0b0d12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arcade Launcher">
+<meta property="og:title" content="Arcade Launcher: turn your Windows handheld into a console">
+<meta property="og:description" content="Free, lightweight, controller-first home screen for ROG Ally, Legion Go, MSI Claw and more. Every store in one library.">
+<meta property="og:url" content="https://amsrs.github.io/Arcade-Launcher/">
+<meta property="og:image" content="https://amsrs.github.io/Arcade-Launcher/img/social-preview.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Arcade Launcher: turn your Windows handheld into a console">
+<meta name="twitter:description" content="Free, controller-first home screen for ROG Ally, Legion Go, MSI Claw and more. Steam, Game Pass, Epic, GOG, EA, Ubisoft in one library.">
+<meta name="twitter:image" content="https://amsrs.github.io/Arcade-Launcher/img/social-preview.jpg">
+<link rel="icon" href="img/icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Arcade Launcher",
+  "alternateName": "Arcade",
+  "applicationCategory": "GameApplication",
+  "applicationSubCategory": "Game launcher",
+  "operatingSystem": "Windows 10, Windows 11",
+  "description": "A free, lightweight, console-style home screen and game launcher for Windows handheld gaming PCs. Steam, Xbox Game Pass, Epic, GOG, EA, Ubisoft, Battle.net, itch.io and emulator games in one controller-friendly library.",
+  "url": "https://amsrs.github.io/Arcade-Launcher/",
+  "downloadUrl": "https://github.com/AMSRS/Arcade-Launcher/releases/latest",
+  "screenshot": "https://amsrs.github.io/Arcade-Launcher/img/home-tiles.jpg",
+  "image": "https://amsrs.github.io/Arcade-Launcher/img/social-preview.jpg",
+  "softwareVersion": "1.0.0",
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Person", "name": "AMSRS", "url": "https://github.com/AMSRS" },
+  "featureList": "Steam, Xbox Game Pass, Epic, GOG, EA app, Ubisoft Connect, Battle.net, itch.io and RetroArch in one library; console row layout; Home button app switcher; quick settings; per-game power profiles; How Long To Beat times; achievements; save backups; file manager; Arabic"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Is Arcade Launcher free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Arcade Launcher is free to download and use on as many PCs as you like." } },
+    { "@type": "Question", "name": "Which handhelds does Arcade Launcher support?", "acceptedAnswer": { "@type": "Answer", "text": "Any Windows 10 or 11 PC, designed for handhelds such as ASUS ROG Ally and ROG Ally X, Lenovo Legion Go, MSI Claw, AYANEO, ONEXPLAYER, AOKZOE, GPD and Steam Deck running Windows." } },
+    { "@type": "Question", "name": "Does Arcade Launcher work with Xbox Game Pass, Epic and GOG?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It finds games from Steam, the Xbox app (PC Game Pass), Epic Games Store, GOG Galaxy, EA app, Ubisoft Connect, Battle.net, itch.io and RetroArch automatically, without logins." } },
+    { "@type": "Question", "name": "Is Arcade Launcher a Playnite or Steam Big Picture alternative?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It is a full-screen, controller-first library for all your games, and it is also designed to replace the Windows desktop on a handheld, with a file manager, a Home button app switcher, quick settings and per-game power profiles." } },
+    { "@type": "Question", "name": "Can my ROG Ally or Legion Go boot straight into Arcade Launcher?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Turn on Start with Windows, and with the Home button feature on, pressing Home brings you back to Arcade instead of the desktop." } },
+    { "@type": "Question", "name": "Will Arcade Launcher slow down my games?", "acceptedAnswer": { "@type": "Answer", "text": "No. It sits idle in the background while a game runs, and its heavier extras are off unless you turn them on." } }
+  ]
+}
+</script>
+<style>
+:root { --bg: #0b0d12; --bg2: #12151c; --card: #171b23; --ink: #f2f4f7; --ink2: #a3abb8; --line: rgba(255,255,255,.08); --acc: #4f8cff; --acc2: #9b7bff; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "Segoe UI Variable Text", "Segoe UI", Inter, system-ui, -apple-system, sans-serif; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
+nav { position: sticky; top: 0; z-index: 10; background: rgba(11,13,18,.82); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+nav .wrap { display: flex; align-items: center; gap: 22px; height: 60px; }
+nav b { font-size: 17px; letter-spacing: -.01em; display: flex; align-items: center; gap: 10px; }
+nav b img { width: 28px; height: 28px; border-radius: 7px; }
+nav .links { display: flex; gap: 20px; margin-inline-start: auto; font-size: 14.5px; color: var(--ink2); }
+nav .links a { text-decoration: none; }
+nav .links a:hover { color: var(--ink); }
+.btn { display: inline-flex; align-items: center; gap: 10px; height: 52px; padding: 0 26px; border-radius: 999px; background: var(--acc); color: #fff; font-weight: 650; text-decoration: none; font-size: 16.5px; box-shadow: 0 10px 30px rgba(79,140,255,.35); }
+.btn.ghost { background: transparent; box-shadow: inset 0 0 0 1.5px var(--line); color: var(--ink); }
+.btn svg { width: 20px; height: 20px; }
+header.hero { position: relative; overflow: hidden; padding: 70px 0 40px; text-align: center; }
+header.hero::before { content: ""; position: absolute; inset: -20% -10% auto; height: 520px; background: radial-gradient(50% 60% at 30% 30%, rgba(79,140,255,.35), transparent 70%), radial-gradient(40% 50% at 75% 20%, rgba(155,123,255,.28), transparent 70%); pointer-events: none; }
+.hero h1 { position: relative; font-size: clamp(34px, 5.4vw, 64px); line-height: 1.04; letter-spacing: -.03em; margin: 0 auto 18px; max-width: 900px; }
+.hero h1 span { background: linear-gradient(90deg, #8fb4ff, #c3a8ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero p.lead { position: relative; font-size: clamp(17px, 2vw, 20px); color: var(--ink2); max-width: 760px; margin: 0 auto 28px; }
+.cta { position: relative; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.small { position: relative; color: var(--ink2); font-size: 13.5px; margin-top: 14px; }
+.shot { position: relative; margin: 46px auto 0; max-width: 1060px; border-radius: 18px; overflow: hidden; box-shadow: 0 40px 100px rgba(0,0,0,.6), 0 0 0 1px var(--line); }
+.stores { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 26px; color: var(--ink2); font-weight: 600; font-size: 15px; padding: 34px 0 10px; }
+section { padding: 70px 0; }
+section h2 { font-size: clamp(26px, 3.4vw, 40px); letter-spacing: -.02em; margin: 0 0 12px; line-height: 1.12; }
+section .sub { color: var(--ink2); font-size: 17.5px; max-width: 720px; margin: 0 0 34px; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.f { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
+.f h3 { margin: 6px 0 6px; font-size: 18px; }
+.f p { margin: 0; color: var(--ink2); font-size: 15px; }
+.f .ic { font-size: 26px; }
+.split { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; }
+.split.rev { grid-template-columns: 1fr 1.1fr; }
+.split.rev .media { order: 2; }
+.split img { border-radius: 16px; box-shadow: 0 24px 60px rgba(0,0,0,.5), 0 0 0 1px var(--line); }
+.split ul { padding-left: 20px; color: var(--ink2); margin: 0; }
+.split li { margin: 6px 0; }
+.split li b { color: var(--ink); }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+.gallery figure { margin: 0; }
+.gallery img { border-radius: 14px; box-shadow: 0 0 0 1px var(--line); }
+.gallery figcaption { color: var(--ink2); font-size: 14px; padding: 8px 2px 0; }
+.devices { display: flex; flex-wrap: wrap; gap: 10px; }
+.devices span { background: var(--card); border: 1px solid var(--line); padding: 9px 16px; border-radius: 999px; font-size: 15px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+td, th { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--line); }
+th { color: var(--ink2); font-weight: 600; }
+td:first-child { width: 160px; font-weight: 650; }
+details { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px; margin-bottom: 10px; }
+summary { cursor: pointer; font-weight: 650; padding: 14px 0; font-size: 16.5px; }
+details p { color: var(--ink2); margin: 0 0 16px; }
+.final { text-align: center; background: radial-gradient(60% 80% at 50% 0%, rgba(79,140,255,.18), transparent 70%); }
+footer { border-top: 1px solid var(--line); padding: 30px 0 50px; color: var(--ink2); font-size: 13.5px; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: space-between; }
+@media (max-width: 820px) {
+  nav .links { display: none; }
+  .split, .split.rev { grid-template-columns: 1fr; gap: 22px; }
+  .split.rev .media { order: 0; }
+  section { padding: 50px 0; }
+  td:first-child { width: auto; }
+}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <b><img src="img/icon.png" alt="Arcade Launcher logo">Arcade Launcher</b>
+  <div class="links"><a href="#features">Features</a><a href="#screenshots">Screenshots</a><a href="#devices">Devices</a><a href="#faq">FAQ</a><a href="https://github.com/AMSRS/Arcade-Launcher">GitHub</a></div>
+  <a class="btn" style="height:40px;padding:0 18px;font-size:14.5px" href="https://github.com/AMSRS/Arcade-Launcher/releases/latest">Download</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <h1>Turn your Windows handheld into a <span>console</span></h1>
+  <p class="lead"><b>Arcade Launcher</b> is a free, lightweight home screen and game launcher for the ROG Ally, Legion Go, MSI Claw, AYANEO and every other Windows handheld. All your games from every store in one controller-friendly library, with no desktop in sight.</p>
+  <div class="cta">
+    <a class="btn" href="https://github.com/AMSRS/Arcade-Launcher/releases/latest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download free for Windows</a>
+    <a class="btn ghost" href="https://github.com/AMSRS/Arcade-Launcher">View on GitHub</a>
+  </div>
+  <div class="small">Windows 10 and 11 · Installer or portable · No account, no ads</div>
+  <div class="shot"><video src="img/console-row.mp4" poster="img/console-row.jpg" autoplay muted loop playsinline width="1060" height="596" aria-label="Arcade Launcher console row on a Windows handheld: scrolling through Steam, Xbox and Epic games with a controller" style="width:100%;height:auto;display:block"></video></div>
+  <div class="stores"><span>Steam</span><span>Xbox Game Pass</span><span>Epic Games</span><span>GOG</span><span>EA app</span><span>Ubisoft Connect</span><span>Battle.net</span><span>itch.io</span><span>RetroArch</span><span>Emulators</span></div>
+</div></header>
+
+<section id="features"><div class="wrap">
+  <h2>Everything a handheld home screen should do</h2>
+  <p class="sub">A Steam Big Picture and Playnite alternative that also replaces the Windows desktop, so your handheld boots straight into your games.</p>
+  <div class="grid3">
+    <div class="f"><div class="ic">🎮</div><h3>Every store, one library</h3><p>Steam, Xbox app and PC Game Pass, Epic, GOG, EA, Ubisoft, Battle.net, itch.io, RetroArch and your own emulators and game folders. No logins.</p></div>
+    <div class="f"><div class="ic">🕹️</div><h3>Made for a controller</h3><p>PlayStation-style prompts, stick scrolling, a soft click and light rumble on every move, an on-screen keyboard and full touch support.</p></div>
+    <div class="f"><div class="ic">🏠</div><h3>Home button that works</h3><p>Press Home to come back to Arcade from any game. Press twice to see every open app and switch, like on a phone.</p></div>
+    <div class="f"><div class="ic">⏱️</div><h3>Know what to play</h3><p>How Long To Beat times, trailers, achievements, playtime, install size and a battery estimate learned from your real sessions.</p></div>
+    <div class="f"><div class="ic">⚡</div><h3>Per-game power profiles</h3><p>Refresh rate and power mode switch automatically when a game starts and switch back when you quit. Quick settings are one press away.</p></div>
+    <div class="f"><div class="ic">💾</div><h3>Save backups</h3><p>Your saves are backed up before and after you play, the last 10 are kept, and restoring takes one press.</p></div>
+    <div class="f"><div class="ic">🎨</div><h3>Three layouts, your look</h3><p>Big tiles, phone-style icons or a PS5-style console row. Dark, light and OLED black themes, accent colors, your own wallpapers and music.</p></div>
+    <div class="f"><div class="ic">🗂️</div><h3>A real file manager</h3><p>Browse, search, copy, move, rename and delete with a controller, so you never need the desktop or File Explorer.</p></div>
+    <div class="f"><div class="ic">🪶</div><h3>Light and private</h3><p>One small program that sits idle while you play. No account, no ads, no tracking.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap split">
+  <div class="media"><img src="img/home-tiles.jpg" alt="Arcade Launcher home screen with the Continue row and the game library in big tiles" loading="lazy" width="1600" height="900"></div>
+  <div>
+    <h2>Pick up where you left off</h2>
+    <p class="sub" style="margin-bottom:16px">Your last games sit at the top in a big <b>Continue</b> row, and the library sorts itself.</p>
+    <ul>
+      <li><b>Sort</b> by recently played, most played, A to Z, recently added or shortest to beat</li>
+      <li><b>Filter</b> by status, store or your own collections with L2 / R2</li>
+      <li><b>Edit</b> any tile from the controller: rename, hide, cover art, collections</li>
+    </ul>
+  </div>
+</div></section>
+
+<section><div class="wrap split rev">
+  <div class="media"><img src="img/game-details.jpg" alt="Game details with How Long To Beat times, achievements, play status and trailer" loading="lazy" width="1600" height="900"></div>
+  <div>
+    <h2>Game info at a glance</h2>
+    <p class="sub" style="margin-bottom:16px">Press View on any game to see its trailer and everything that helps you decide.</p>
+    <ul>
+      <li><b>How Long To Beat</b>: main story, extras and completionist</li>
+      <li><b>Achievements</b> with progress, plus your playtime</li>
+      <li><b>Play status</b>: Playing, Backlog, Beaten, Completed</li>
+      <li>Install size, free space and battery estimate</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="screenshots"><div class="wrap">
+  <h2>Screenshots</h2>
+  <p class="sub">Captured at 1600 × 900. It looks just like this on a 7 to 8.8 inch handheld screen.</p>
+  <div class="gallery">
+    <figure><img src="img/console-row.jpg" alt="Console row layout, like the PS5 home screen" loading="lazy"><figcaption>Console row layout</figcaption></figure>
+    <figure><img src="img/icons-light.jpg" alt="Phone-style small icons in the light theme" loading="lazy"><figcaption>Small icons, light theme</figcaption></figure>
+    <figure><img src="img/open-now.jpg" alt="Open now app switcher opened with the Home button" loading="lazy"><figcaption>Open now: press Home twice</figcaption></figure>
+    <figure><img src="img/quick-settings.jpg" alt="Quick settings with volume, brightness, power mode and refresh rate" loading="lazy"><figcaption>Quick settings</figcaption></figure>
+    <figure><img src="img/tile-options.jpg" alt="Options menu for a game: rename, cover art, collections, profile, uninstall" loading="lazy"><figcaption>Options for any game</figcaption></figure>
+    <figure><img src="img/settings.jpg" alt="Controller-friendly settings" loading="lazy"><figcaption>Settings</figcaption></figure>
+    <figure><img src="img/setup-look.jpg" alt="First-run setup: theme, layout and accent color" loading="lazy"><figcaption>One-minute setup</figcaption></figure>
+    <figure><img src="img/arabic.jpg" alt="Arcade Launcher in Arabic, right to left" loading="lazy"><figcaption>English and Arabic</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="devices"><div class="wrap">
+  <h2>Works on your handheld</h2>
+  <p class="sub">Any Windows 10 or 11 PC, tuned for 7 to 8.8 inch handheld screens and built-in controls.</p>
+  <div class="devices"><span>ASUS ROG Ally</span><span>ROG Ally X</span><span>ROG Xbox Ally</span><span>Lenovo Legion Go</span><span>Legion Go S</span><span>MSI Claw</span><span>AYANEO</span><span>ONEXPLAYER</span><span>OneXFly</span><span>AOKZOE</span><span>GPD Win</span><span>Steam Deck (Windows)</span><span>Mini PCs and TV PCs</span></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Controls</h2>
+  <table>
+    <tr><th>Button</th><th>Action</th></tr>
+    <tr><td>✕</td><td>Open</td></tr>
+    <tr><td>○</td><td>Back, or return to the app you came from</td></tr>
+    <tr><td>□</td><td>Options: rename, hide, cover art, collections, game profile, uninstall</td></tr>
+    <tr><td>△</td><td>Switch layout: tiles, icons, console row</td></tr>
+    <tr><td>View</td><td>Game info, trailer and achievements</td></tr>
+    <tr><td>Menu</td><td>Search, quick settings, settings, filters and sorting</td></tr>
+    <tr><td>L3 / R3</td><td>Quick settings / Search</td></tr>
+    <tr><td>Home</td><td>Back to Arcade. Twice: Open now</td></tr>
+  </table>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2>FAQ</h2>
+  <details open><summary>Is Arcade Launcher free?</summary><p>Yes. Download it from GitHub and use it on as many PCs as you like.</p></details>
+  <details><summary>Is it a Playnite or Steam Big Picture alternative?</summary><p>Yes. It's a full-screen, controller-first library for all your games, and it's also made to replace the Windows desktop on a handheld: it has a file manager, a Home button app switcher, quick settings and per-game power profiles, and it's set up in about a minute without plugins.</p></details>
+  <details><summary>Does it work with Xbox Game Pass, Epic and GOG?</summary><p>Yes. Games from Steam, the Xbox app (PC Game Pass), Epic Games Store, GOG Galaxy, EA app, Ubisoft Connect, Battle.net, itch.io and RetroArch are found automatically, without logging in.</p></details>
+  <details><summary>Can my ROG Ally or Legion Go boot straight into Arcade?</summary><p>Yes. Turn on Start with Windows. With the Home button feature on, pressing Home takes you back to Arcade instead of the desktop.</p></details>
+  <details><summary>Will it slow down my games?</summary><p>No. Arcade sits idle while you play, and its heavier extras (moving trailer backgrounds, Steam friends) are off unless you turn them on.</p></details>
+  <details><summary>Windows says "Windows protected your PC". Is it safe?</summary><p>The app isn't code-signed yet, so SmartScreen warns the first time. Click More info, then Run anyway. Arcade Launcher collects no data, shows no ads and needs no account.</p></details>
+</div></section>
+
+<section id="plus"><div class="wrap">
+  <h2>Arcade Plus</h2>
+  <p class="sub">Arcade Launcher is free. Plus is an optional one-time purchase that unlocks a few extras and keeps development going.</p>
+  <div class="grid3">
+    <div class="f"><div class="ic">🎬</div><h3>Console row</h3><p>The PS5-style layout, with moving trailer backgrounds.</p></div>
+    <div class="f"><div class="ic">🎨</div><h3>Your look</h3><p>Accent colors, the black OLED theme, your own wallpapers and music.</p></div>
+    <div class="f"><div class="ic">⚡</div><h3>Per-game profiles</h3><p>Refresh rate and power mode per game, plus battery estimates.</p></div>
+    <div class="f"><div class="ic">👥</div><h3>Steam friends</h3><p>See who's online and what they're playing.</p></div>
+    <div class="f"><div class="ic">💾</div><h3>Move your setup</h3><p>Back up everything and restore it on another handheld.</p></div>
+    <div class="f"><div class="ic">☕</div><h3>Or just say thanks</h3><p><a href="https://ko-fi.com/amsrs">Support on Ko-fi</a> or <a href="https://github.com/sponsors/AMSRS">GitHub Sponsors</a>.</p></div>
+  </div>
+  <p class="sub" style="margin-top:22px">Get Plus inside the app: ☰ › Get Arcade Plus.</p>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <h2>Make your handheld feel like a console</h2>
+  <p class="sub" style="margin:0 auto 26px">Free for Windows 10 and 11. Installer or portable.</p>
+  <a class="btn" href="https://github.com/AMSRS/Arcade-Launcher/releases/latest">Download Arcade Launcher</a>
+</div></section>
+
+<footer><div class="wrap">
+  <span>© 2026 AMSRS · Arcade Launcher · <a href="https://ko-fi.com/amsrs">Support on Ko-fi</a></span>
+  <span>Not affiliated with Valve, Microsoft, Epic Games, GOG, EA, Ubisoft, Blizzard, Sony, ASUS, Lenovo, MSI or any handheld maker. Game artwork belongs to its owners.</span>
+</div></footer>
+</body>
+</html>

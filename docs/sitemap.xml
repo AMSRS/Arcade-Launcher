@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://amsrs.github.io/Arcade-Launcher/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://amsrs.github.io/Arcade-Launcher/img/home-tiles.jpg</image:loc></image:image>
+    <image:image><image:loc>https://amsrs.github.io/Arcade-Launcher/img/console-row.jpg</image:loc></image:image>
+    <image:image><image:loc>https://amsrs.github.io/Arcade-Launcher/img/game-details.jpg</image:loc></image:image>
+  </url>
+</urlset>
